@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Ball
+  - Platform
+  - Brick
+  - BrickColour
+  - BrickMetallic
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Ball
+  - Platform
+  - Brick
+  - Gem
+  - Coin
+  - Heart
+  - Magic
+  - OuterBlock
+  - Person
+  - Fire
+  - OuterBlockUp
+  - Surprise
+  - Ship
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 2993996129
+    locked: 0
+  - name: Priority
+    uniqueID: 2731004851
+    locked: 0
+  - name: 
+    uniqueID: 2832392919
+    locked: 0

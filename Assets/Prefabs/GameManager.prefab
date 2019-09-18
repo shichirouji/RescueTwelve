@@ -1,0 +1,106 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1086744784156765772
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1086744784156765762}
+  - component: {fileID: 3796146428911698123}
+  - component: {fileID: 1086744784156765761}
+  - component: {fileID: -769805588931585012}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1086744784156765762
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1086744784156765772}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3796146428911698123
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1086744784156765772}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a1278479b2c2ec4f8073c639f94c324, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hearts: 2
+  magic: 2
+  levelStartDelay: 3
+--- !u!114 &1086744784156765761
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1086744784156765772}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50aad9e8cdb307244a4d564abfaf3acd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  platform: {fileID: 7441512510667041618, guid: 3ff7756721fecc84c8aa91f6e4fa9f0b,
+    type: 3}
+  brick: {fileID: 1427599830655772013, guid: 96b627bb7c6aedd419a77c5e920184f9, type: 3}
+  ball: {fileID: 1046084008388753199, guid: 4955a89a02fc15c45863eb79b760e47a, type: 3}
+  ballGreen: {fileID: 3164480051407738031, guid: 0a955a50094fb1e408380447f6715c1a,
+    type: 3}
+  ballBlue: {fileID: 2683332840846742399, guid: b19997fb11df9074692528e72f35ee0b,
+    type: 3}
+  gem: {fileID: 8605499713855635310, guid: 8fcfb611c9831d347b3228f4573b6990, type: 3}
+  person: {fileID: 5667463272998360601, guid: e0934a230076d4549818aa0a7d3905ad, type: 3}
+  ship:
+  - {fileID: 4026813299014604443, guid: 28124b8d98cd91742af418cab5853b5d, type: 3}
+  - {fileID: 6920566617747548421, guid: 0a7913c3ca038e84889040e3c756d095, type: 3}
+  - {fileID: 5033028707018083693, guid: f93c9e0c084bdfd4883a85787c10c95b, type: 3}
+  - {fileID: 1983565101259303969, guid: 076a8be416da2214e9c22121996b460a, type: 3}
+  - {fileID: 1109814910128569004, guid: fef81aed8b199824685e189f285d32fa, type: 3}
+  - {fileID: 2845441963624489991, guid: 7f76d979968c2ea4e948a2d2b0084c65, type: 3}
+  objectSpawnAndDestroySpeed: 0.12
+  colorSpritePersons:
+  - {fileID: 21300002, guid: 9206d669770ae0549b19e959cdcede01, type: 3}
+  - {fileID: 21300006, guid: 9206d669770ae0549b19e959cdcede01, type: 3}
+  - {fileID: 21300000, guid: 9206d669770ae0549b19e959cdcede01, type: 3}
+  - {fileID: 21300010, guid: 9206d669770ae0549b19e959cdcede01, type: 3}
+  - {fileID: 21300012, guid: 9206d669770ae0549b19e959cdcede01, type: 3}
+  - {fileID: 21300016, guid: 9206d669770ae0549b19e959cdcede01, type: 3}
+  - {fileID: 21300026, guid: 9206d669770ae0549b19e959cdcede01, type: 3}
+  - {fileID: 21300004, guid: 9206d669770ae0549b19e959cdcede01, type: 3}
+  - {fileID: 21300008, guid: 9206d669770ae0549b19e959cdcede01, type: 3}
+  - {fileID: 21300014, guid: 9206d669770ae0549b19e959cdcede01, type: 3}
+  - {fileID: 21300024, guid: 9206d669770ae0549b19e959cdcede01, type: 3}
+  - {fileID: 21300022, guid: 9206d669770ae0549b19e959cdcede01, type: 3}
+  buildSfx: {fileID: 8300000, guid: cc2fb963a4400d14eb24d566d8fce52a, type: 3}
+--- !u!114 &-769805588931585012
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1086744784156765772}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90dd17cad9bc47048b077017584daa3a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
